@@ -1,0 +1,7 @@
+print("Example For Receieving Input")
+name=input("Question:- What Is Your Name?:-")
+print("Answer:- "+name)
+print("Question On Recieving Input")
+Name=input("What is Your Name?:-")
+Colour=input("What is Your Favourite Colour:-")
+print(Name+ " Likes " +Colour)
