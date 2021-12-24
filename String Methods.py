@@ -1,0 +1,11 @@
+String="Python For Beginners"
+print(String)
+print(len(String))
+print(String.upper())
+print(String.lower())
+print(String.find("F"))
+print(String.find("f"))
+print(String.find("Beginners"))
+print(String.replace("Beginners", "Masters"))
+print("Python" in String)
+print("python" in String)
