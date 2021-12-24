@@ -1,0 +1,11 @@
+print("Example On Type Conversion:-")
+print("Calculating My Age")
+Birth_Year=input("Enter Your Birth Year= ")
+print(type(Birth_Year))
+Age=2022-int(Birth_Year)
+print(type(Age))
+print(Age)
+print("Question On Type Conversion:-")
+Pounds=input("How Much Do You Wieght= ")
+Kilogram=int(Pounds)/2.205
+print(Kilogram)
