@@ -1,15 +1,15 @@
 import math
-a=int(input("Enter Your First Number:- "))
-b=int(input("Enter Your Second Number:- "))
-if a>b:
-    c=a
-else:
-    c=b
-for i in range(2,c):
-    if a%i==0 and b%i==0:
-        d=i
+a = int(input("Enter Your First Number:- "))
+b = int(input("Enter Your Second Number:- "))
+num1 = a
+num2 = b
+while True:
+    if b == 0:
+        print(a)
+        break
     else:
-        d=1
-print(f"GCD Of The 2 Numbers Are= {d}")
-e=(a*b)/d
+        a, b = b, a % b
+
+print(f"GCD Of The 2 Numbers Are= {a}")
+e = int((num1 * num2) / a)
 print(f"LCM Of The 2 Numbers Are= {e}")
