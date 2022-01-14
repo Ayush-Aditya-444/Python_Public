@@ -1,0 +1,6 @@
+print("Tuples:-")
+Tuple1=(1,2,3,4,5)
+print(Tuple1[2])
+print(Tuple1[-1])
+print(Tuple1[1:3])
+print(Tuple1[1:5:2])
