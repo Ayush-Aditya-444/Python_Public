@@ -1,0 +1,11 @@
+print("Unpacking:-")
+print("Tuples:-")
+Tuple1=(1,2,3,4,5,6,7,8,9)
+a,b,c,d,e,f,g,h,i=Tuple1
+print(b)
+print(i,a)
+print("List:-")
+List1=[1,2,3,4,5,6,7,8,9]
+a,b,c,d,e,f,g,h,i=List1
+print(c)
+print(a,f)
