@@ -1,0 +1,16 @@
+def function1():
+    print("Hi Today Is A Lovely Weather")
+    print("How About We Go On A Date")
+print("Using Function 1:-")
+print("Start")
+function1()
+print("End")
+print("Now Using Parameters In Function:-")
+def function2(first_name, last_name):
+    print(f"Hi My Name Is {first_name} {last_name}")
+    print("My Age is 20")
+    print("How About We Go On A Date")
+print("Start")
+function2("Ayush", "Aditya")
+function2("Anisha", "Aditya")
+print("End")
