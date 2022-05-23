@@ -1,0 +1,6 @@
+a=int(input())
+b=int(input())
+c=int(input())
+print(f"z Value  = {c}")
+print(f"y value = {c+b}")
+print(f"x value = {c+b+a}")
