@@ -12,5 +12,8 @@ class Solution:
             stack.append([count, n])
         
         stack.sort()
-        arr = [num for c, num in stack]
-        return arr
+        list1=[]
+        for i in range(len(stack)):
+            list1.append(stack[i][1])
+        return list1
+    
